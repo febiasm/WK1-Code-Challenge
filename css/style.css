@@ -1,0 +1,11 @@
+*{
+    background-color: black;
+/*change page colour to black */
+}
+h1{
+padding-top: 300px;
+padding-left: 600px;
+font-size: 50px;
+color: white;
+/*positions and changes text colour to white*/
+}
