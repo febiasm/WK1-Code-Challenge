@@ -1,0 +1,11 @@
+{
+  "name": "wk1-code-challenge",
+  "version": "1.0.0",
+  "description": "WK1: Code Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Trevor Febias",
+  "license": "ISC"
+}
