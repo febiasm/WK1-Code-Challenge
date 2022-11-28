@@ -1,11 +1,11 @@
 // storesstudent marks
-let max =0 ;
+var max =window.prompt("Enter Max");
 // stores the students grade
 let grade;
 
  // accounts for grade input greater than 100
 if (max >=101){ 
- grade= "invalid"
+ grade= "invalid input"
  console.log(grade);
 
 }

@@ -1,83 +1,68 @@
 
-// gets salary and benefits 
-let salary=0 ;
-let benefits=0;
-// calculating gross salary
-let grossSalary = (salary) + (benefits);
-console.log ("Gross Pay:" ,grossSalary);
-//calculating NSSF
- let nssf = grossSalary * 0.06;
- //NSSf should not be more than 1080
- if (nssf > 1080){
-    nssf = 1080;
- }else{
-     nssf = grossSalary * 0.06;
- }
- console.log("NSSF:", nssf);
-// calculating paye
-//if gross salary is up to 24000
-if (grossSalary <= 24000){
-      paye = grossSalary * 0.1;
-     //if gross salary is between 24001 - 32333
-} else if (24,000 < grossSalary <= 32,333){
-    paye1 = 24000 * 0.1;
-    paye2 = (grossSalary - 24000) * 0.25;
-    paye = paye1 + paye2 ;
-    // if gross salary is more than 32333
-} else {
-    paye1 = 24000 * 0.1;
-    paye2 = (32333 - 24001) * 0.25;
-    paye3 = (grossSalary - 32333) * 0.3;
-    paye = paye1 + paye2 + paye3;
+// prompt usetr input basic salary and benefit
+let basicSalary =window.prompt("Enter basic salary ");
+let benefits = window.prompt("Enter Benefits ");
+//calculate gross salary 
+let grossSalary =parseInt(basicSalary)+ parseInt(benefits);
+console.log("grossSalary:" + grossSalary); 
+//calculate the NSSF Deductions whereby NSSF Deduction is 6% of the pension.
+let pension = 6000;
+let nssfDeductions = pension * 0.06;
+console.log("NSSF:" + nssfDeductions);
+//calculate gross tax : tax charged per each slab in regard to gross salary earned
+if (grossSalary >0 && grossSalary <= 24000) {
+    grossTax = 24000 * 0.1;
+} else if(grossSalary > 24000 && grossSalary <= 32333) {
+    grossTax = (32333 - 24000)*0.25;
+} else if (grossSalary >32333){
+    grossTax = (grossSalary - 32333)* 0.3;
 }
-// deducting the personal relief which is 2400
- if (paye < 2400){
-    paye = 0
- }else {
-    paye = paye - 2400
- }
- console.log ("PAYE:" , paye);
- // calculating NHIF
- if (grossSalary < 6000){
-    nhif = 150;
- }else if (6000 <= grossSalary <= 7999){
-    nhif = 300;
- }else if (8000<= grossSalary <= 11999){
-    nhif = 400;
- }else if (12000<= grossSalary <= 19999){
-    nhif = 500;
- }else if (15000<= grossSalary <= 11999){
-    nhif = 600;
- }else if (20000<= grossSalary <= 24999){
-    nhif = 750;
- }else if (25000<= grossSalary <= 29999){
-    nhif = 850;
- }else if (30000<= grossSalary <= 34999){
-    nhif = 900;
- }else if (35000<= grossSalary <= 39999){
-    nhif = 950;
- }else if (40000<= grossSalary <= 44999){
-    nhif = 1000;
- }else if (45000<= grossSalary <= 49999){
-    nhif = 1100;
- }else if (50000<= grossSalary <= 59999){
-    nhif = 1200;
- }else if (60000<= grossSalary <= 69999){
-    nhif = 1300;
- }else if (70000<= grossSalary <= 79999){
-    nhif = 1400;
- }else if (80000<= grossSalary <= 89999){
-    nhif = 1500;
- }else if (90000<= grossSalary <= 99999){
-    nhif = 400;
- }else {
-    nhif = 1700;
- }
- console.log("NHIF:" , nhif);
- let netsalary = grossSalary - paye - nssf - nhif ;
- console.log ("Net Salary:" , netsalary);
-
-
+ console.log("grossTax:" + grossTax)
+//calculate PAYE 
+if(relief = 2400) {
+    PAYE = grossTax - relief
+}
+console.log ("PAYE:" + PAYE);
+//calculate NHIF Deductions
+if(grossSalary>0 && grossSalary<= 5999){
+    NHIFDeductions = 150;
+}else if(grossSalary >59999 && grossSalary<=7999){
+    NHIFDeductions = 300;
+}else if(grossSalary >7999 && grossSalary<=11999){
+    NHIFDeductions = 400;
+}else if(grossSalary >11999 && grossSalary<=14999){
+    NHIFDeductions = 500;
+}else if(grossSalary >14999 && grossSalary<=19999){
+    NHIFDeductions = 600;
+}else if(grossSalary >19999 && grossSalary<=24999){
+    NHIFDeductions = 750;
+}else if(grossSalary >24999 && grossSalary<=29999){
+    NHIFDeductions = 850;
+}else if(grossSalary >29999 && grossSalary<=34999){
+    NHIFDeductions = 900;
+}else if(grossSalary >34999 && grossSalary<=39999){
+    NHIFDeductions = 950;
+}else if(grossSalary >39999 && grossSalary<=44999){
+    NHIFDeductions = 1000;
+}else if(grossSalary >44999 && grossSalary<=49999){
+    NHIFDeductions = 1100;
+} else if(grossSalary >49999 && grossSalary<=59999){
+    NHIFDeductions = 1200;
+}else if(grossSalary >59999 && grossSalary<=69999){
+    NHIFDeductions = 1300;
+}else if(grossSalary >69999 && grossSalary<=79999){
+    NHIFDeductions = 1400;
+}else if(grossSalary >79999 && grossSalary<=89999){
+    NHIFDeductions = 1500;
+}else if(grossSalary >89999 && grossSalary<=99999){
+    NHIFDeductions = 1600;
+}else if(grossSalary >99999){
+    NHIFDeductions = 1700;
+}
+console.log("NHIF:" + NHIFDeductions);
+//calculate the net salary (gross salary less all deductions)
+let netSalary = grossSalary - (PAYE + NHIFDeductions + nssfDeductions);
+console.log("NetSalary:" + netSalary);
 
 
 

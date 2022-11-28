@@ -1,5 +1,5 @@
 // gets vehicle speed 
-let speed =0;
+let speed =window.prompt("Enter speed");
 // stores number of demerits
 let demerit;
 
