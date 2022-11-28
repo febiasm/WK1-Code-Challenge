@@ -19,3 +19,6 @@ challenge three
 
 Click the button assigned to challenge 3 (the THERED button) a prompt to input net salary and benefits will appear at the top of your screen where you will be required to input net salary and benefits respectfully. upon input click okay. it will return calculate an individual’s Net Salary by getting the inputs of basic salary and benefits.to view output press F12 it will directly open console on your browser alternatively you can right-click on the page, you'll be prompted with a dropdown menu click on inspect and click on console which will be at the top of the page next to Elements.
 
+
+author : "Trevor Febias",
+license": "ISC"
