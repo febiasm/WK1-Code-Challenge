@@ -4,7 +4,7 @@
 # Description
 
 
-This is the code challenge for week 1, tacking Student Grade Generator (Toy Problem),Speed Detector (Toy Problem) and  Net Salary Calculator (Toy Problem)
+This is the code challenge for week 1, tackling Student Grade Generator (Toy Problem),Speed Detector (Toy Problem) and  Net Salary Calculator (Toy Problem)
 
 # Installation
 
