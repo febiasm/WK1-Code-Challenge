@@ -1,5 +1,8 @@
 # WK1-Code-Challenge
 # phase-1-WK1-Code-Challenge
+
+Description
+This is the week 1 code challenge
 INSTRUCTIONS.
 
 launch the homepg HTML file onto your browser, for each code challenge a button has been assigned and indicates the challenge it tackles 
