@@ -2,6 +2,7 @@
 # phase-1-WK1-Code-Challenge
 
 Description
+
 This is the week 1 code challenge
 INSTRUCTIONS.
 
