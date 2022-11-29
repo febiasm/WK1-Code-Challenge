@@ -3,7 +3,10 @@
 
 Description
 
-This is the week 1 code challenge
+
+This is the code challenge for week 1, tacking Student Grade Generator (Toy Problem),Speed Detector (Toy Problem) and  Net Salary Calculator (Toy Problem)
+
+
 INSTRUCTIONS.
 
 launch the homepg HTML file onto your browser, for each code challenge a button has been assigned and indicates the challenge it tackles 
