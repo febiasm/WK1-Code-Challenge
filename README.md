@@ -22,8 +22,7 @@ Open it in Visual Studio Code
 
 click on this link to run the application
 
-https://febiasm.github.io/WK1-Code-Challenge/
-
+   wk-1-code-challenge.vercel.app
 
 
 # INSTRUCTIONS.
