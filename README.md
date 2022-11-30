@@ -22,7 +22,7 @@ Open it in Visual Studio Code
 
 click on this link to run the application
 
-http://127.0.0.1:5501/html/Homepg.html
+https://febiasm.github.io/WK1-Code-Challenge/
 
 
 
