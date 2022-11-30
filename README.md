@@ -21,11 +21,14 @@ open your terminal and navigate to where you'd like to download the project.
  
  cd WK1-Code-Challenge.
 
- type 'code .' to open up a text editor window with access to all of the assignment's files. 
+Open it in Visual Studio Code
  
- # Running the application
+  code .
  
- click on this link to run the application http://127.0.0.1:5501/html/Homepg.html
+ click on this link to run the application 
+ 
+ http://127.0.0.1:5501/html/Homepg.html
+ 
  use the following steps to run the application.
  
  Install dependencies from npm
