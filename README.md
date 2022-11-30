@@ -22,8 +22,7 @@ Open it in Visual Studio Code
 
 click on this link to run the application
 
-   wk-1-code-challenge.vercel.app
-
+   http://wk-1-code-challenge.vercel.app/
 
 # INSTRUCTIONS.
 
