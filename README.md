@@ -24,6 +24,8 @@ open your terminal and navigate to where you'd like to download the project.
  type 'code .' to open up a text editor window with access to all of the assignment's files. 
  
  # Running the application
+ 
+ click on this link to run the application http://127.0.0.1:5501/html/Homepg.html
  use the following steps to run the application.
  
  Install dependencies from npm
