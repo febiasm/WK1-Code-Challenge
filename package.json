@@ -2,7 +2,7 @@
   "name": "wk1-code-challenge",
   "version": "1.0.0",
   "description": "WK1: Code Challenge",
-  "main": "index.js",
+  "main": "Homepg.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
