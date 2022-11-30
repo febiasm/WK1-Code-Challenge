@@ -19,10 +19,18 @@ color: white;
     text-align: center;
     text-decoration: none;
     align-content: center;
+    
     font-size: 16px;
     margin: 10px 22px;
     cursor: pointer;
   }
   
   .button1 {background-color: #af4c4c;} 
+
+  p{
+    text-align: center;
+    color: #af4c4c;
+    padding-top: 300px;
+    font-size: 50px;
+  }
   
