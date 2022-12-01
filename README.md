@@ -1,9 +1,9 @@
 # phase-1-WK1-Code-Challenge
-# Description
+## Description
 
 This is the code challenge for week 1, tackling Student Grade Generator (Toy Problem),Speed Detector (Toy Problem) and Net Salary Calculator (Toy Problem)
 
-# Installation
+## Installation
 open your terminal and navigate to where you'd like to download the project. Clone the repo by using the following:
 
       git clone https://github.com/febiasm/WK1-Code-Challenge
@@ -40,31 +40,36 @@ click on this link to run the application
 
    http://wk-1-code-challenge.vercel.app/
 
-# INSTRUCTIONS.
+## INSTRUCTIONS.
 
 For each code challenge a button has been assigned and indicates the challenge it tackles button 1, Challenge 1: Student Grade Generator (Toy Problem).Button 2, Challenge 2: Speed Detector (Toy Problem) and button 3 Challenge 3: Net Salary Calculator (Toy Problem)
 
-# challenge One
-Click the button assigned to challenge 1 (the FIRST button) a prompt to input student max will appear at the top of your screen where you will be required to input students maxand click okay.To view output grade press F12 on your keyboard.
+## challenge One
+Click the button assigned to challenge 1 (the FIRST button) a prompt to input student max will appear at the top of your screen where you will be required to input students maxand click okay.
+* To view output grade press F12 on your keyboard.
 
-. For this challenge    if else     statement were used to check various conditions 
+* For this challenge    if else     statement were used to check various conditions 
 
-. A range of      0-100       was used as a function to prevent grading invalid scores
-
-
-# challenge Two.
-Click the button assigned to challenge 2 (the SECOND button) a prompt to input speed will appear at the top of your screen where you will be required to input vehicle speed. upon inputting the speed click okay. To view output press F12 it will directly open console on your browser.
-
-For this challenge the main function used was    if else statements        to analyse various conditions
+* A range of      0-100       was used as a function to prevent grading invalid scores
 
 
-# challenge three
-Click the button assigned to challenge 3 (the THERED button) a prompt to input net salary and benefits will appear at the top of your screen where you will be required to input net salary and benefits respectfully. upon input click okay. press F12 it will directly open console on your browser were you can view the results.
+## challenge Two.
+Click the button assigned to challenge 2 (the SECOND button) a prompt to input speed will appear at the top of your screen where you will be required to input vehicle speed. upon inputting the speed click okay. 
+
+* To view output press F12 it will directly open console on your browser.
+
+* For this challenge the main function used was    if else statements  to analyse various conditions
 
 
-# author :
-this project was contributed by
-   Trevor Febias
+## challenge three
+Click the button assigned to challenge 3 (the THERED button) a prompt to input net salary and benefits will appear at the top of your screen where you will be required to input net salary and benefits respectfully. upon input click okay. 
 
-# license:
-The project is licensed by ISC
+* press F12 to view output.
+
+
+## author :
+* this project was contributed by
+      Trevor Febias
+
+## license:
+* The project is licensed by ISC
