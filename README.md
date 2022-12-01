@@ -3,7 +3,12 @@
 
 This is the code challenge for week 1, tackling Student Grade Generator (Toy Problem),Speed Detector (Toy Problem) and Net Salary Calculator (Toy Problem)
 
-## Installation
+# Installation
+click on this link to run the application
+
+   http://wk-1-code-challenge.vercel.app/
+
+### cloning the application
 open your terminal and navigate to where you'd like to download the project. Clone the repo by using the following:
 
       git clone https://github.com/febiasm/WK1-Code-Challenge
@@ -20,7 +25,7 @@ Open it in Visual Studio Code
 
       code .
 
-open        JavaScript         folder to view all codes for challenge 1 to 3 respectively.
+ open JavaScript folder to view all codes for challenge 1 to 3 respectively.
 
 
 Challenge 1: Student Grade Generator (Toy Problem)
@@ -35,10 +40,6 @@ Challenge 3: Net Salary Calculator (Toy Problem)
 
       challenge_3.js
 
-
-click on this link to run the application
-
-   http://wk-1-code-challenge.vercel.app/
 
 ## INSTRUCTIONS.
 
