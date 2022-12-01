@@ -1,0 +1,51 @@
+*{
+    background-color: black;
+}
+#marks{
+    background-color: antiquewhite;
+    border: 2px solid #af4c4c;
+
+}
+#btn{ 
+    background-color: #af4c4c;
+    color: white;
+
+}
+p{
+    background-color: rgb(255, 0, 0);
+}
+div.upper{
+    background-color: rgb(255, 0, 0);
+    height: 250px;
+    width: 280px;
+    text-align: center;
+    border: 5px solid maroon;
+   font-size: 20px;
+    position:absolute;
+    left: 45%;
+   
+    top: 30%;
+    
+   
+  }
+ 
+
+
+.button {
+    position: absolute;
+    top: 60%;
+    left: 48%;
+   
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+   
+    
+    font-size: 16px;
+    margin: 10px 22px;
+    cursor: pointer;
+  }
+  
+  .button1 {background-color: #af4c4c;} 

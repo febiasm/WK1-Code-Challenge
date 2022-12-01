@@ -1,47 +1,45 @@
 // storesstudent marks
-var max =window.prompt("Enter Max");
+function submit () { 
+    
+    
+    let max = parseInt(document.getElementById("marks").value)
+    
+
 // stores the students grade
-let grade;
+
 
  // accounts for grade input greater than 100
 if (max >=101){ 
- grade= "invalid input"
- console.log(grade);
+    document.getElementById("grade").innerHTML = 'invalid input'
+ 
 
 }
 // accounts for max greater than or equal to 80 shows A as students grade
 else if (max >=80){
-
-grade = 'A'
-console.log(grade);
+    document.getElementById("grade").innerHTML ='A'
 
 }
 // accounts for max greater than or equal to 60 shows B as students grade
 else if ( max >=60 ){
   
-   grade='B';
-   console.log(grade);
+    document.getElementById("grade").innerHTML ='B'
    
 }
  //accounts for max greater than or equal to 49 shows C as students grade
 else if (max >=49) {
    
-    grade = 'C'
-    console.log(grade);
+    document.getElementById("grade").innerHTML ='C'
    
 }
 // accounts for max greater than or equal to 40 shows D as students grade
 else if (max >=40 ){
     
-    grade = 'D'
-    console.log(grade);
+    document.getElementById("grade").innerHTML ='D'
     
 }
  // accounts for max less than 40 shows E as students grade
 else {  
  
-    grade = 'E'
-    console.log(grade);
-   
+    document.getElementById("grade").innerHTML ='E'
 }
-
+}

@@ -30,7 +30,29 @@ color: white;
   p{
     text-align: center;
     color: #af4c4c;
-    padding-top: 300px;
+    padding-top: 30px;
     font-size: 50px;
   }
+  .marks{
+    text-align: center;
+    background-color: aliceblue;
+  }
+ 
+div {
+  text-align: center;
+  padding-top: 30px;
   
+}
+#upper{
+  background-color: aqua;
+}
+#marks{
+  background-color: aliceblue;
+}
+#btnn{
+  background-color: #af4c4c;
+  color: white;
+}
+#bttn{
+    
+}
